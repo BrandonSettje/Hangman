@@ -8,15 +8,18 @@ namespace HangMan
 {
     class Program
     {
+       
         public static Random rng = new Random();
         static string pName = string.Empty;
         static void Main(string[] args)
         {
-            Console.WriteLine("                         ************************    ");
-            Console.WriteLine("                         *      HANGMAN!        *    ");
-            Console.WriteLine("                         *   Hardcore Mode!     *    ");
-            Console.WriteLine("                         ************************    ");
-            string greeting = ("           Let's play some Hangman! This hangman can be tough!");
+            Console.SetBufferSize(80, 40);
+            Console.SetWindowSize(80, 40);
+            Console.WriteLine("   ************************    ");
+            Console.WriteLine("   *      HANGMAN!        *    ");
+            Console.WriteLine("   *   Hardcore Mode!     *    ");
+            Console.WriteLine("   ************************    ");
+            string greeting = ("Let's play some Hangman! This hangman can be tough!");
             for (int i = 0; i < greeting.Length; i++)
             {
                 Console.Write(greeting[i].ToString());
@@ -24,18 +27,23 @@ namespace HangMan
             }
             System.Threading.Thread.Sleep(800);
             Console.WriteLine();
-            Console.WriteLine("                   Hope you've studied up on your words!");
+            Console.WriteLine("   Hope you've studied up on your words!");
             //user types in a name
             Console.Write("Enter a name: ");
             pName = Console.ReadLine();
             System.Threading.Thread.Sleep(500);
             Console.WriteLine();
             Console.WriteLine();
-            string pNameInp = ("Good luck " + pName + "!");
+            string pNameInp = ("Good luck " + pName + "!" + @" Your head is foggy but your 
+            name startled booming over the speaker had woken you up. The speakers blare again, 
+            'The rules are simple...guess the word and the random person lives!'. The deep 
+            black covers are thrust off and sitting in front of you is an empty rope. TO the 
+            side a board, slightly angled, with a box of tiles sitting on the ground. A man in 
+            black starts picking tiles...");
             for (int i = 0; i < pNameInp.Length; i++)
             {
                 Console.Write(pNameInp[i].ToString());
-                System.Threading.Thread.Sleep(80);
+                System.Threading.Thread.Sleep(50);
             }
             Hangman();
         }

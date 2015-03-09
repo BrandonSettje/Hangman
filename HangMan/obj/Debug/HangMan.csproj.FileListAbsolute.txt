@@ -1,1 +1,7 @@
 C:\Users\Technologist SP\Documents\GitHub\ClassProjects\HangMan\HangMan\bin\Debug\HangMan.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Hangman\HangMan\bin\Debug\HangMan.exe.config
+C:\Users\Technologist SP\Documents\GitHub\Hangman\HangMan\bin\Debug\HangMan.exe
+C:\Users\Technologist SP\Documents\GitHub\Hangman\HangMan\bin\Debug\HangMan.pdb
+C:\Users\Technologist SP\Documents\GitHub\Hangman\HangMan\obj\Debug\HangMan.csprojResolveAssemblyReference.cache
+C:\Users\Technologist SP\Documents\GitHub\Hangman\HangMan\obj\Debug\HangMan.exe
+C:\Users\Technologist SP\Documents\GitHub\Hangman\HangMan\obj\Debug\HangMan.pdb
